@@ -37,7 +37,7 @@ def find_the_cheese(cheese)
   end
   cheese_types[counter]
 end
-
+# IMMEDIATELY BELOW IS BETTER SOLUTION
 #def find_the_cheese(cheese)
 #	cheese_types = ["cheddar", "gouda", "camembert"]
 #	cheese.find do |cheese_maybe|
