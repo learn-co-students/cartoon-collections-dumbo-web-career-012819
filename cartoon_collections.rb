@@ -36,6 +36,14 @@ def find_the_cheese(cheese)
   	counter += 1
   end
   cheese_types[counter]
+end
+
+#def find_the_cheese(cheese)
+#	cheese_types = ["cheddar", "gouda", "camembert"]
+#	cheese.find do |cheese_maybe|
+#		cheese_types.include?(cheese_maybe)
+#	end
+#end
   #if cheese[counter] != cheese_types[counter]
   	#nil
  # end
@@ -65,4 +73,4 @@ def find_the_cheese(cheese)
     end
   end
 =end
-end
+
