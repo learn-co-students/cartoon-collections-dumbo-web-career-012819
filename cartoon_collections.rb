@@ -11,7 +11,5 @@ def long_planeteer_calls (calls)
 end
 
 def find_the_cheese (list)
-  list.find do |food|
-    food == "cheddar" && "gouda" && "camembert"
-  end
+  list.find {|food| food == "cheddar" && "gouda" && "camembert"}
 end
