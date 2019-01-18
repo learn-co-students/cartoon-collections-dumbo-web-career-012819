@@ -1,5 +1,4 @@
 def roll_call_dwarves(array)
-  
   array.each_with_index {|val, index| puts "#{index + 1}.#{val}"}  
    end
 
@@ -16,6 +15,9 @@ end
 
 def find_the_cheese(array)
   cheeses = ["cheddar", "gouda","provolone"]
-  array & cheeses
-    
+  return array & cheeses
+
 end
+  
+
+  
